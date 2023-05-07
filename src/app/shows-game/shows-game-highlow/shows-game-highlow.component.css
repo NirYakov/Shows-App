@@ -8,39 +8,63 @@
   display: grid;
   align-content: center;
 
+  /* height: 600px; */
+
   /* align-items: center; */
   grid-template-columns: repeat(11, 1fr);
-  grid-row: 2 60px;
+  /* grid-row: 2 60px; */
   grid-auto-rows: 550px;
 }
 
-/* img {
+img {
   height: 300px;
   width: 200px;
+  border-radius: 25px;
+
+  box-shadow: 5px 5px 6px #ccc;
+  -moz-box-shadow: 5px 5px 6px #ccc;
+  -webkit-box-shadow: 5px 5px 6px #ccc;
+  -khtml-box-shadow: 5px 5px 6px #ccc;
 }
 
 .box1 {
+  /* height: 200px; */
   align-self: center;
 
   grid-column-start: 2;
   grid-column-end: 5;
   /* grid-row-start: 1;
   grid-row-end: 3; */
-/* } */
+}
 
-/*
 .box2 {
   align-self: center;
   grid-column-start: 6;
   grid-column-end: 7;
-} */
+}
 
-/* .box3 {
+.box3 {
+  /* height: 200px; */
   align-self: center;
 
   grid-column-start: 8;
   grid-column-end: 11;
-} */
+}
+
+.miniContainer {
+  /* align-self: center; */
+  /* align-items: center; */
+  height: 60px;
+  padding: 1rem;
+}
+
+.btnSpace {
+  margin: 1rem;
+}
+
+.under-box-div {
+  height: 60px;
+}
 
 /* @media (max-width: 1200px) {
   .container {

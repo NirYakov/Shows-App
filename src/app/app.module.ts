@@ -4,13 +4,29 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HeaderComponent } from './header/header/header.component';
+
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { CardShowComponent } from './cards/cardShow/cardShow.component';
+import { CardsListComponent } from './cards/cards-list/cards-list.component';
+import { ShowsGameHighlowComponent } from './shows-game/shows-game-highlow/shows-game-highlow.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    CardShowComponent,
+    CardsListComponent,
+    ShowsGameHighlowComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSlideToggleModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

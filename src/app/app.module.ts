@@ -11,6 +11,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { CardShowComponent } from './cards/cardShow/cardShow.component';
 import { CardsListComponent } from './cards/cards-list/cards-list.component';
 import { ShowsGameHighlowComponent } from './shows-game/shows-game-highlow/shows-game-highlow.component';
+import { SingleShowComponent } from './cards/single-show/single-show.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ShowsGameHighlowComponent } from './shows-game/shows-game-highlow/shows
     HeaderComponent,
     CardShowComponent,
     CardsListComponent,
-    ShowsGameHighlowComponent
+    ShowsGameHighlowComponent,
+    SingleShowComponent,
 
   ],
   imports: [
